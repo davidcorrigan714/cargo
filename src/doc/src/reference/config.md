@@ -1055,7 +1055,7 @@ Can be overridden with the `--token` command-line option.
 
 #### `registry.global-credential-providers`
 * Type: array
-* Default: `["cargo:token"]`
+* Default: `[]`
 * Environment: `CARGO_REGISTRY_GLOBAL_CREDENTIAL_PROVIDERS`
 
 Specifies the list of global credential providers. If credential provider is not set
