@@ -5,8 +5,7 @@ uses to store and retrieve credentials.
 
 Using alternative registries with authentication *requires* a credential provider to be configured
 to avoid unknowingly storing unencrypted credentials on disk. For historical reasons, public
-(non-authenticated) registries do not require credential provider configuration, and the `cargo:token`
-provider is used if no providers are configured.
+(non-authenticated) registries do not require credential provider configuration.
 
 Cargo also includes platform-specific providers that use the operating system to securely store
 tokens. The `cargo:token` provider is also included which stores credentials in unencrypted plain
